@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Divante_PersonalReceipt>
+            <version>1.0.0</version>
+        </Divante_PersonalReceipt>
+    </modules>
+    <global>
+        <models>
+            <divante_personalreceipt>
+                <class>Divante_PersonalReceipt_Model</class>
+            </divante_personalreceipt>
+        </models>
+        <helpers>
+            <divante_personalreceipt>
+                <class>Divante_PersonalReceipt_Helper</class>
+            </divante_personalreceipt>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <divante_personalreceipt>
+                <active>1</active>
+                <model>divante_personalreceipt/carrier_method</model>
+                <title>Odbiór osobisty</title>
+                <name>Place|Place 2|Place 3</name>
+            </divante_personalreceipt>
+        </carriers>
+    </default>
+</config>
